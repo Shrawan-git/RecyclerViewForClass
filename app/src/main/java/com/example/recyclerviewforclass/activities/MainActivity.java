@@ -29,9 +29,6 @@ public class MainActivity extends AppCompatActivity {
         contactsList.add(new Contacts("Dahayang Rai" ,"9801234567",R.drawable.dahayang));
         contactsList.add(new Contacts("Bhuwan KC" ,"980123777",R.drawable.bhuwan));
         contactsList.add(new Contacts("Saugat Malla" ,"9801323567",R.drawable.saugat));
-        contactsList.add(new Contacts("Dahayang Rai" ,"9801234567",R.drawable.dahayang));
-        contactsList.add(new Contacts("Bhuwan KC" ,"980123777",R.drawable.bhuwan));
-        contactsList.add(new Contacts("Saugat Malla" ,"9801323567",R.drawable.saugat));
 
         ContactsAdapter contactsAdapter = new ContactsAdapter(this,contactsList);
         recyclerView.setAdapter(contactsAdapter);
